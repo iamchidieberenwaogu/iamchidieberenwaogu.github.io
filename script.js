@@ -46,18 +46,26 @@ function removeRadius() {
     	var displaySetting = document.getElementById('firstcontent').style.display;
     	if (displaySetting == 'block') {
       		document.getElementById('firstcontent').style.display = 'none';
+      		document.getElementById('firstman').style.backgroundColor = "#2F969F";
+      		document.getElementById('firstman').style.color = "#FFFFFF";
     	}
     	else {
       		document.getElementById('firstcontent').style.display = 'block';
+      		document.getElementById('firstman').style.backgroundColor = "#3BBBC6";
+      		document.getElementById('firstman').style.color = "#000000";
     	}
  	}
  	function toggleDisplay2() {
     	var displaySetting = document.getElementById('firstcontent2').style.display;
     	if (displaySetting == 'block') {
       		document.getElementById('firstcontent2').style.display = 'none';
+      		document.getElementById('firstman2').style.backgroundColor = "#2F969F";
+      		document.getElementById('firstman2').style.color = "#FFFFFF";
     	}
     	else {
       		document.getElementById('firstcontent2').style.display = 'block';
+      		document.getElementById('firstman2').style.backgroundColor = "#3BBBC6";
+      		document.getElementById('firstman2').style.color = "#000000";
     	}
  	}
  	function toggleDisplay3() {
