@@ -13,7 +13,8 @@
 <img onmouseover="removeRadius()" onmouseout="insertRadius()" id="myprofilepic" height='200' src='profile.jpg' style='cursor: pointer; border-radius:50%;' width='200'/>
   </center>
   <br/>
-<div class='column2' style='margin-top:30px;'>CONTACT</div>
+<div id="firstman9" ondblclick='toggleDisplay9()' style='cursor:pointer;margin-top:30px;' class='column2'>CONTACT</div>
+<div id="firstcontent9" style='display:block;'>
 <div style='padding:20px;'>
   <div id='clicker' onclick="document.getElementById('contact').style.display = 'block';document.getElementById('clicker').style.display = 'none';" style='font-size:13px;cursor:pointer;'>Click to see contact</div>
 <div id='contact'>
@@ -21,17 +22,19 @@
 <li style='font-size:13px;list-style: none;margin-bottom:20px;'><b>T: </b>08144726899</li>
 <li style='font-size:13px;list-style: none;margin-bottom:20px;'><b>W: </b>www.publiseer.com</li>
 <li style='font-size:13px;list-style: none;'><b>A: </b>8, Esther Ebun Street, Victory Estate, Ojo,
-  Lagos</li></div></div>
+  Lagos</li></div></div></div>
 <br/>
-<div class='column2'>EDUCATION</div>
+<div id="firstman10" ondblclick='toggleDisplay10()' style='cursor:pointer;' class='column2'>EDUCATION</div>
+<div id="firstcontent10" style='display:block;'>
 <div style='font-size:13px;padding:20px;'>
 <b>BACHELOR OF SCIENCE:<br/>
   UNIVERSITY OF LAGOS</b><br/>
 <i>2013</i><br/>
   <div style='margin-top:5px;'>Physics Science</div>
-</div>
+</div></div>
 <br/>
-<div class='column2'>COMPUTER SKILLS</div>
+<div id="firstman11" ondblclick='toggleDisplay11()' style='cursor:pointer;' class='column2'>COMPUTER SKILLS</div>
+<div id="firstcontent11" style='display:block;'>
 <div style='font-size:13px;padding:20px;'>
 HTML<br/>
 CSS<br/>
@@ -40,13 +43,14 @@ Bootstrap<br/>
 Graphics<br/>
 PHP<br/>
 GML
-  </div><br/>
-<div class='column2'>SOCIAL</div>
+  </div></div><br/>
+<div id="firstman12" ondblclick='toggleDisplay12()' style='cursor:pointer;' class='column2'>SOCIAL</div>
+<div id="firstcontent12" style='display:block;'>
 <div style='padding:20px;'>
 <li style='font-size:13px;list-style: none;margin-bottom:10px;'><b>FB: </b>fb.me/publiseer</li>
 <li style='font-size:13px;list-style: none;margin-bottom:10px;'><b>IG: </b>@publiseer</li>
 <li style='font-size:13px;list-style: none;margin-bottom:10px;'><b>TW: </b>@wearepubliseer
-</li></div>
+</li></div></div>
 </div>
 <div id='second'>
   <div class='column' style='background-color:#2f969f!important; color: #ffffff!important;margin-bottom:30px;padding:50px 50px 80px 50px!important;height:100px!important;'>
@@ -82,7 +86,7 @@ Digital marketing<br/>
 Public speaking<br/>
 Leadership
   </div></div><br/></div>
-<div ondblclick='toggleDisplay3()' style='cursor:pointer;margin-top:30px;' class='column'>MY EXPERIENCE</div>
+<div id="firstman3" ondblclick='toggleDisplay3()' style='cursor:pointer;margin-top:30px;' class='column'>MY EXPERIENCE</div>
 <div id="firstcontent3" style='display:block;'>
 <br/>
 <div style='width:450px;min-height:205px;'><img src="lagbook-20120714191716-ketnhjmyymzxuacve.png" style='float:left; width:90px; margin-right:10px;'/><div style='float:left;width:350px;font-size:13px;'><b>CO-FOUNDER<br/>
@@ -108,8 +112,8 @@ Leadership
 
   	<div id="aboutme4"><br/>The digital publisher has received so many awards and recognitions, including becoming the first and only African publisher to join the International Publishing Distribution Association in Madrid, emerging a finalist at the Harvard Business School New Venture Competition and MIT Solve Global Challenges. Publiseer has been accepted in several accelerators and incubators, such as Microsoft's Accelerate Labs and University of Cape Town's Venture Incubation Programme. The digital publisher has been extensively covered by hundreds of media houses around the world for its exceptional achievements in the world of digital publishing.</div></div></div>
   </div><br class="clear" /></div>
-<div class='column' style='margin-top:30px;'>NEWSPAPER APPEARANCES</div>
-<br/>
+<div id="firstman4" ondblclick='toggleDisplay4()' style='cursor:pointer;margin-top:30px;' class='column'>NEWSPAPER APPEARANCES</div>
+<div id="firstcontent4" style='display:block;'><br/>
 <div style='font-size:13px;'><b>NATIONAL MIRROR<br/>
   Nigerian Twins Pioneer Made-In-Nigeria Social Network</b><br/>
 <div style='margin-top:5px;'>by ThankGod Amaefule<br/>
@@ -182,8 +186,9 @@ Jun 2018
  Young Nigerian clinches 2018 African entrepreneurship award</b><br/>
 <div style='margin-top:5px;'>by Tosin Adesile<br/>
 Jun 2018 
-  </div></div></div>
-  <div class='column' style='margin-top:30px;'>PUBLIC SPEAKING</div><br/>
+  </div></div></div></div>
+ <div id="firstman5" ondblclick='toggleDisplay5()' style='cursor:pointer;margin-top:30px;' class='column'>PUBLIC SPEAKING</div>
+ <div id="firstcontent5" style='display:block;'><br/>
 <div style='font-size:13px;'><img src="download.png" style='height:29px;margin-bottom:5px;'/><br/><b>IT LEADERS WEST AFRICA SUMMIT<br/>
   Nov 2012</b><br/>
 <div style='margin-top:5px;'>I was the Keynote Speaker at the 2012 IT Leaders West Africa Summit that held on
@@ -206,10 +211,10 @@ how they could be harnessed to grew a small business enterprise.
   	<div id="aboutme7">
 <br/>The summit was
 organized by AIESEC, the world's largest non-profit youth-run organization. I was also a member of the panel that debated on the importance of Corporate Social
-Responsibility for student entrepreneurs.</div>
+Responsibility for student entrepreneurs.</div></div>
   </div></div>
-<div class='column' style='margin-top:30px;'>RECOMMENDATION
-</div><br/>
+<div id="firstman6" ondblclick='toggleDisplay6()' style='cursor:pointer;margin-top:30px;' class='column'>RECOMMENDATION
+</div><div id="firstcontent6" style='display:block;'><br/>
 <div style='font-size:14px;'><img src="emre.png" style='margin-bottom:30px;width:50px;float:left;margin-right:10px;'/><b>EMRE SOKULLU<br/>
   CEO at GROU.PS Inc</b><br/>
 <div style='margin-top:5px;'>Nwaogu knows how to generate leads, create traffic and buzz. He's a PR and viral
@@ -225,10 +230,10 @@ and think logically to arrive at a profound solution. Simply put, He's an inspir
   	<div id="aboutme8">
 <div style='font-size:14px;'><img src="avnUG_lE_400x400.jpeg" style='margin-bottom:15px;width:50px;float:left;margin-right:10px;'/><b>GBOLADE EMMANUEL<br/>
   Founder and CEO at Termii</b><br/>
-<div style='margin-top:5px;'>Good at what he does.</div>
+<div style='margin-top:5px;'>Good at what he does.</div></div>
   </div></div>
-<div class='column' style='margin-top:30px;'>REFERENCE
-</div><br/>
+<div id="firstman7" ondblclick='toggleDisplay7()' style='cursor:pointer;margin-top:30px;' class='column'>REFERENCE
+</div><div id="firstcontent7" style='display:block;'><br/>
 <div style='font-size:14px;'><img src="akin-braithwaithe-380x380.jpg" style='margin-bottom:50px;width:50px;float:left;margin-right:10px;'/><b>AKIN BRAITHWAITE<br/>
   Former Chief Customer Relations Officer at MTN Communications Nigeria</b><br/>
 <div style='margin-top:5px;'>Contact available upon request.
@@ -236,9 +241,10 @@ and think logically to arrive at a profound solution. Simply put, He's an inspir
 <br/>
 <div style='font-size:14px;'><img src="kingsley-46.jpg" style='margin-bottom:15px;width:50px;float:left;margin-right:10px;'/><b>KINGSLEY GBEHO<br/>
   Technology Reporter</b><br/>
-<div style='margin-top:5px;'>Contact available upon request.
+<div style='margin-top:5px;'>Contact available upon request.</div>
   </div></div>
-<div class='column' style='margin-top:30px;'>MY LIFE IN PICTURES</div><br/><img src='ext%20(1).jpg' style='width:400px;'/><br/><small>I code at the dining too.</small><br/><br/>
+<div id="firstman8" ondblclick='toggleDisplay8()' style='cursor:pointer;margin-top:30px;' class='column'>MY LIFE IN PICTURES</div>
+<div id="firstcontent8" style='display:block;'><br/><img src='ext%20(1).jpg' style='width:400px;'/><br/><small>I code at the dining too.</small><br/><br/>
 
 <img src='ext%20(2).jpg' style='width:400px;'/><br/><small>I also code in bed.</small>
 <br/><br/><div id='clicker9' onclick="document.getElementById('aboutme9').style.display = 'block';document.getElementById('clicker9').style.display = 'none';" style='font-size:13px;cursor:pointer;'><b>Click to see more pictures</b></div>
@@ -257,6 +263,6 @@ and think logically to arrive at a profound solution. Simply put, He's an inspir
 
 <img src='ext.jpg' style='width:400px;'/><br/><small>That's me again.</small></div>
 </div>
-</div>
+</div></div>
   </body>
 </html>

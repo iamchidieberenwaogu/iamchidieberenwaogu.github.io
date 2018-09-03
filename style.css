@@ -31,8 +31,7 @@ line-height:60px;
 #first {
 width: 210px;
 float: left;
-background-color:e3e3e3;
-height: 3812px;
+background-color:transparent;
 padding: 50px 20px 50px 20px;
   }
   .clear { clear: both; }
