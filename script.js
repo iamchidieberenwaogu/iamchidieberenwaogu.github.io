@@ -72,8 +72,12 @@ function removeRadius() {
     	var displaySetting = document.getElementById('firstcontent3').style.display;
     	if (displaySetting == 'block') {
       		document.getElementById('firstcontent3').style.display = 'none';
+      		document.getElementById('firstman3').style.backgroundColor = "#2F969F";
+      		document.getElementById('firstman3').style.color = "#FFFFFF";
     	}
     	else {
       		document.getElementById('firstcontent3').style.display = 'block';
+      		document.getElementById('firstman3').style.backgroundColor = "#3BBBC6";
+      		document.getElementById('firstman3').style.color = "#000000";
     	}
  	}
