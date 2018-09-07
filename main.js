@@ -23,8 +23,7 @@ function result() {
 	var xItem = randomValueFromArray(insertX);
 	var yItem = randomValueFromArray(insertY);
 	var zItem = randomValueFromArray(insertZ);
-
-	newStory = newStory.replace(':insertx:', xItem);
+    
     newStory = newStory.replace(':insertx:', xItem);
     newStory = newStory.replace(':inserty:', yItem);
     newStory = newStory.replace(':insertz:', zItem);
